@@ -1,2 +1,3 @@
-# CursoHTML-5
- Curso de HTML-5
+# Curso HTML-5
+ Curso de < HTML - 5 >      
+Repositório criado durante a pandemia
