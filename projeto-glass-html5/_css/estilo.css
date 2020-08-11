@@ -123,19 +123,6 @@ nav#menu li:hover {
    background-color: #4442c2 ; 
 } 
 
-/*
-nav#menu a {
-    color: #000000; 
-    text-decoration: none;
-}
-
-nav#menu a:hover {
-    color: #ffffff; 
-    text-decoration: underline;
-    color: white;
-}  
-*/
-
 nav#menu h1{
     display: none;
 
