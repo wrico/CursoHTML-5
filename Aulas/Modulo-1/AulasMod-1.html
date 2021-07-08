@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="wilson.ico" type="image/x-icon">
+    <title>Hello Word - Primeiro Exercício</title>
+</head>
+
+<body>
+    <!--Identação é com SHIFT + ALT + F -->
+    <div class="div1">
+        <p id="H"> Hello </p>
+        <p id="W">Word</p>
+        <p> <a href="https://www.youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n">Link da PlayList</a></p>
+
+        <p><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">Link para os pdfs'</a></p>
+
+    </div>
+
+    <div>
+        <p> ---- Simbolos -------</p>
+        <p>&copy Wilson Maldonado</p>
+        <p>&reg</p>
+        <p>&trade</p>
+        <p>&pound</p>
+        <a href="..\apostilas\05 - Caracteres, parágrafos e quebras de linha.pdf">Link da apostila para mais
+            simbolos</a>
+    </div>
+
+    <div>
+        <p> ---- Emojis -------</p>
+        &#x1F918
+        &#x1F91B
+        <a href="https://emojipedia.org/">Link para Emojis</a>
+    </div>
+
+    <div>
+        <p> ---- Inserindo imagens -------</p>
+
+        <img class="w" src="baixados.png" alt="Imagem da Internet" height="100" width="200">
+    </div>
+
+    <div style="background-color:silver">
+        <p> ---- Hierarquia de Títulos -------</p>
+        <h1>Entendendo a Espanha</h1>
+        <h2>Extensão</h2>
+        <h3>População</h3>
+        <h2>Quando eu vou</h2>
+        <h3>Datas provaveis</h3>
+        <h3>Estadias</h3>
+        <h2>Como vou</h2>
+        <h3>Nomade Digital</h3>
+        <h3>Aposentadoira</h3>
+        <h3>Emprego Local</h3>
+    </div>
+
+    <div>
+        <p> ---- Semantica -------</p>
+        <u>Sublinhado: endereço: moro na rua tal</u>
+        <address>significa endereço: se usar com o html5 o google entende</address>
+    </div>
+
+    <div>
+        <p> ---- Principais Formatações - Semanticas -------</p>
+        <strong>Strong: Termo em destaque-</strong>
+        <p><em>termo em italico "enfase" <strong>EM</strong> no lugar do "i"- usar ctrl+shit+p - wrap with abreviation
+                abb </em></p>
+    </div>
+
+    <div>
+        <p> ---- Listas Ordenadas -------</p>
+        <!--- OL Ordered List -->
+        <ol type="1" start="4">
+            <!--- li List Item -->
+            <li>Acordar
+                <!--- </li> é opcional --->
+            <li>Escovar os dentes
+            <li>Amassar a Batara
+            <li>Bater o ovo
+        </ol>
+
+        <ol type="A" start="4">
+            <!--- li List Item -->
+            <li>Acordar
+                <!--- </li> é opcional --->
+            <li>Escovar os dentes
+            <li>Amassar a Batara
+            <li>Bater o ovo
+        </ol>
+
+        <ol type="I" start="4">
+            <!--- li List Item -->
+            <li>Acordar
+                <!--- </li> é opcional --->
+            <li>Escovar os dentes
+            <li>Amassar a Batara
+            <li>Bater o ovo
+        </ol>
+
+        <ol type="i" start="4">
+            <!--- li List Item -->
+            <li>Acordar
+                <!--- </li> é opcional --->
+            <li>Escovar os dentes
+            <li>Amassar a Batara
+            <li>Bater o ovo
+        </ol>
+
+        <p> ---- Listas Não Ordenadas -------</p>
+        <!--- UL Unorded List  type="disk" , "circle", "square"  -->
+        <ul type="square">
+            <!--- li List Item -->
+            <li>Acordar
+                <!--- </li> é opcional --->
+            <li>Escovar os dentes
+            <li>Amassar a Batara
+            <li>Bater o ovo
+        </ul>
+
+    </div>
+
+    <div>
+        <p> ---- Misturando as Listas -------</p>
+
+        <ol type="square">
+
+            <li>HTML-5
+
+                <ul>
+                    <li>CSS-3
+                    <li>BootStrap
+                    <li>Wordpress
+                </ul>
+
+            <li>JavaScript
+                <ul>
+                    <li>Básico
+                    <li>Framework
+                </ul>
+
+        </ol>
+
+    </div>
+
+
+    <div>
+        <p> ---- Lista de Definições -------</p>
+        <!-- DT Termo || DD Definição -->
+        <dl>
+            <!--Definition List-->
+            <dt>H T M L</dt>
+            <dd>O HTML5 é a nova versão do HTML4 e um dos seus principais objetivos é facilitar a manipulação dos
+                elementos,
+                possibilitando o desenvolvedor modificar as características dos objetos de forma não intrusiva, fazendo
+                com
+                que isso fique transparente para o usuário final </dd>
+            <dd>Para se ter uma ideia disso, diferente das versões anteriores, o HTML5 fornece ferramentas para o CSS e
+                o
+                Javascript fazerem seu trabalho da melhor possível de forma que um web site ou aplicação continue leve e
+                funcional. </dd>
+        </dl>
+    </div>
+
+    <div>
+        <p> ---- Link Externos -------</p>
+        <p>Visualizando <a href="https://github.com/wrico" target="_blank" rel="external"> meu perfil no GIT</a> </p>
+        <!--Envelopar com a tag a (âncora) target="_blank" abre nova aba-->
+
+        <p><a href="https://www.homehost.com.br/blog/tutoriais/links-html/">Tutorial para criação de links</a> </p>
+        
+        <p>Os atributos target são:</p>
+
+        <ul>
+            <li>_blank: abre a página em uma nova janela/aba;</li>
+            <li>_self: abre a página na mesma janela;</li>
+            <li>_parent: abre a página na mesma janela do link;</li>
+            <li>_top: cancela todos os demais frames e abre a nova página no mesmo navegador.</li>
+        </ul>
+
+    </div>
+
+    <div>
+        <p> ---- Link no próprio site  -------</p>
+        <p>Chamando um link  <a href="blog.html" rel="next"> no próprio site</a> </p>
+
+        <!---Importante utilizar rel=next e rel=prev para que o mecanismo de busca siga a estrutura-->
+
+     </div>
+
+
+     <a href="https://www.homehost.com.br/" target="_blank">
+        <div style="background-color: rgb(185, 185, 223);line-height: 100px;text-align: center;">
+            <p style="color: white">Meu link em uma Div</p>
+        </div>
+    </a>
+
+
+    </body>
+
+<style>
+    p#H {
+        transform: rotate(-45deg);
+        width: 20px;
+        margin-top: 0%;
+    }
+
+    p#W {
+        width: 10px;
+        transform: rotate(-90deg);
+        margin-top: 40px;
+    }
+
+    p#S {
+        transform: rotate(-90deg);
+    }
+
+    div {
+        border-width: 2px 5px 3px 6px;
+        /* aqui, cada lado possui uma borda de largura diferente */
+        border-style: dashed dotted;
+        /* estilos de borda diferentes para cima-baixo e esquerda-direita */
+        border-color: #000 #090 #900 #009;
+        /* uma cor de borda para cada lado */
+        padding: 10px;
+    }
+
+    img.w {
+        opacity: 0.1;
+    }
+
+    h1 {
+        text-align: center;
+        color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(9, 52, 182, 0.5);
+        padding: 24px;
+        margin: 0;
+    }
+
+    h2 {
+        margin-left: 24px;
+    }
+
+    h3 {
+        margin-left: 48px;
+    }
+
+    dd {
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+</style>
+
+</html>
