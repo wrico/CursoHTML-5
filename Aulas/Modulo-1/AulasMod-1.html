@@ -183,19 +183,31 @@
     </div>
 
     <div>
-        <p> ---- Link no próprio site  -------</p>
+        <p> ---- Link abrindo uma nova aba  -------</p>
         <p>Chamando um link  <a href="blog.html" rel="next"> no próprio site</a> </p>
 
         <!---Importante utilizar rel=next e rel=prev para que o mecanismo de busca siga a estrutura-->
 
      </div>
 
-
-     <a href="https://www.homehost.com.br/" target="_blank">
-        <div style="background-color: rgb(185, 185, 223);line-height: 100px;text-align: center;">
-            <p style="color: white">Meu link em uma Div</p>
+     <a href="https://www.homehost.com.br/" target="_blank" rel="nofolow">
+        <div style="background-color: rgb(89, 89, 194);line-height: 100px;text-align: center;">
+            <p style="color: rgb(233, 248, 25)">Meu link em uma Div nofolow para não ser indexado pelo google </p>
         </div>
     </a>
+
+    <div>
+        <p> ---- Link para outro site dentro da mesma aba  -------</p>
+        <p>Chamando um link  <a href="blog.html" rel="next" target="_self" > no próprio site usando _self</a> </p>
+
+     </div>
+
+     <div>
+        <p> ---- Link para download  -------</p>
+        <li>Clique aqui <a href="../Livro/BI_Formatado.pdf" rel="next" target="_self"> para downloads do PDF</a> </li>
+        <li>Clique aqui <a href="../Livro/BI_Formatado.rar" rel="next" target="_self"> para downloads do ZIP</a> </li>
+
+     </div>
 
 
     </body>
